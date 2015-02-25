@@ -1,0 +1,13 @@
+name: Felipe Rocha
+markdown: redcarpet
+pygments: true
+github: https://www.github.com/feliperochadev
+about: I am an independent developer from Aparecida, Brazil.
+urls:
+    - text: github
+      url: https://github.com/feliperochadev
+    - text: email
+      url: mailto:email@feliperocha.net
+    - text: linkedin
+      url: http://br.linkedin.com/in/felipeacrocha
+
