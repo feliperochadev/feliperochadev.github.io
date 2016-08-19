@@ -1,2 +1,0 @@
-# Felipe Rocha Personal Site
-
