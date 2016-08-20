@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="brndm-themes" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimal-ui" name="viewport"><meta content="yes" name="mobile-web-app-capable"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="Felipe Rocha is Full Stack Developer, Co Founder and CEO na BETAUP. View Felipe&#39;s Resume, Biography and more. Get in touch with Felipe today." name="description"><title>Felipe Rocha | Full Stack Developer, Co Founder and CEO at BETAUP</title><link href="http://feliperocha.net/" rel="canonical"><meta content="Felipe Rocha | Full Stack Developer, Co Founder and CEO na BETAUP" property="og:title"><meta content="website" property="og:type"><meta content="Felipe Rocha is Full Stack Developer, Co Founder and CEO na BETAUP. View Felipe&#39;s Resume, Biography and more. Get in touch with Felipe today." property="og:description"><meta content="http://feliperocha.net" property="og:url"><meta content="../imgs/57b6ad4227a4a2000b47a226.jpg" property="og:image"><meta content="Felipe Rocha | Full Stack Developer, Co Founder and CEO na BETAUP" name="twitter:title"><meta content="Felipe Rocha is Full Stack Developer, Co Founder and CEO da BETAUP. View Felipe&#39;s Resume, Biography and more. Get in touch with Felipe today." name="twitter:description"><meta content="summary" name="twitter:card"><meta content="../imgs/57b6ad4227a4a2000b47a226.jpg" name="twitter:image"><meta content="http://feliperocha.net" name="twitter:url"><link href="../imgs/57b6ad4227a4a2000b47a226.jpg" rel="icon" type="image/png"><link href="../css/vendor.css" rel="stylesheet" type="text/css"><link href="../css/theme.css" rel="stylesheet" type="text/css"><link href="../css/index.css" rel="stylesheet"><style></style>
 <script>
-    debugger;
     function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -11,8 +10,7 @@
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
-    var test = getParameterByName("icon")
-    if(navigator.language == "pt-BR" && test == null)
+    if(navigator.language == "pt-BR" && getParameterByName("icon") == null)
     {
         window.location.href = "http://feliperocha.net/";
     }
